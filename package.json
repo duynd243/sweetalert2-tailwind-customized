@@ -1,0 +1,13 @@
+{
+  "name": "sweetalert2-tailwind-customized",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Duy Nguyen (duynd243)",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {}
+}
