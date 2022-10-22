@@ -9,38 +9,35 @@
   !pb-8
   !shadow-sm;
 }
-.swal2-close{
-    @apply 
-    !h-[1.1rem]
+.swal2-close {
+  @apply !h-[1.1rem]
     !w-[1.1rem]
-    focus:!shadow-none
+    focus:!shadow-none;
 }
 
-.swal2-icon{
-    @apply 
-    !scale-[0.92]
+.swal2-icon {
+  @apply !scale-[0.92];
 }
 .swal2-actions {
   @apply !block
     sm:!flex
     !mt-10
     !w-full
-    /* !px-7
-    sm:!px-10 */
     sm:!gap-1;
 }
 .swal2-actions button {
   @apply focus:!shadow-sm
     !font-medium
     !text-base 
-    !rounded-lg
-    !py-2.5
+    !rounded-md
+    sm:!rounded-lg
+    !py-3
     !w-full
     sm:!flex-1
     !outline-none 
    !border-2 
    !ring-offset-2
-    !ring-blue-500 
+    !ring-blue-500;
 }
 .swal2-styled.swal2-confirm {
   @apply !text-white 
@@ -53,5 +50,9 @@
   @apply !text-[#6D6D6D] 
     !bg-white
     !border-solid
-    !border-[#EDEDED]
+    !border-[#EDEDED];
+}
+
+.swal2-html-container {
+  @apply !mx-0;
 }
