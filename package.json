@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Duy Nguyen (duynd243)",
   "license": "MIT",
+  "scripts": {
+    "buildcss": "tailwindcss -i src/tailwind.css -o src/style.css"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.17",
